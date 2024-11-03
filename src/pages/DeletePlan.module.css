@@ -1,0 +1,71 @@
+.deletePlanChild {
+  width: 393px;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.bg,
+.deletePlanChild,
+.update {
+  position: relative;
+}
+.bg {
+  width: 393px;
+  height: 852px;
+  display: none;
+  max-width: 100%;
+}
+.update {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gray-100);
+}
+.updateContainer,
+.updateContainerWrapper {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.updateContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.updateContainerWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.deletePlan,
+.frameParent,
+.updateContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  height: 50.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base-2);
+}
+.deletePlan {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-249xl) var(--padding-8xl) var(--padding-31xl-5)
+    var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  background-image: url(/public/add-plan@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}

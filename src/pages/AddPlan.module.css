@@ -1,0 +1,108 @@
+.addPlanChild,
+.bg {
+  width: 393px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.addPlanChild {
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.bg {
+  height: 852px;
+  z-index: 1;
+}
+.addPlanItem {
+  width: 271px;
+  height: 209px;
+  position: absolute;
+  margin: 0 !important;
+  top: 268px;
+  left: calc(50% - 135.5px);
+  z-index: 2;
+}
+.eatPenangRoadCendol,
+.shape,
+.tripToPenang {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-100);
+}
+.shape {
+  height: 62.2px;
+  z-index: 3;
+}
+.eatPenangRoadCendol,
+.tripToPenang {
+  z-index: 2;
+}
+.eatPenangRoadCendol {
+  flex: 1;
+}
+.tripToPenang {
+  height: 71px;
+}
+.georgetownPenangParent,
+.shapeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.georgetownPenangParent {
+  flex: 1;
+  gap: var(--gap-6xl-9);
+}
+.shapeParent {
+  height: 350px;
+  gap: 31.8px;
+}
+.save {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gray-100);
+}
+.saveWrapper {
+  align-self: stretch;
+  width: 159.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 2;
+}
+.addPlan,
+.addPlanInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.addPlanInner {
+  align-self: stretch;
+  height: 49.5px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.addPlan {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 364px var(--padding-8xl) 64.5px var(--padding-10xl);
+  gap: var(--gap-5xl);
+  background-image: url(/public/add-plan@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}

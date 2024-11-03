@@ -1,0 +1,154 @@
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.goodMorningUser {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  z-index: 2;
+}
+.goodMorningUserWrapper {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.addPlan {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gray-100);
+}
+.addPlanWrapper,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.addPlanWrapper {
+  width: 159.8px;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.frameWrapper {
+  height: 49.5px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.planElementIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 61px;
+  width: 271px;
+  height: 209px;
+  z-index: 2;
+}
+.planElementParent {
+  align-self: stretch;
+  height: 414px;
+  position: relative;
+}
+.planIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.tripToPenang {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 282px;
+  height: 36px;
+  z-index: 3;
+}
+.watchList {
+  height: 92px;
+  flex: 1;
+  position: relative;
+}
+.watchListWrapper {
+  width: 379px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-25xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup,
+.frameParent,
+.homepage2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 34px;
+  max-width: 100%;
+}
+.frameParent,
+.homepage2 {
+  font-size: var(--m3-headline-small-size);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-38xl-5);
+  max-width: 100%;
+  text-align: left;
+}
+.homepage2 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-6xl) 0 var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  background-image: url(/public/homepage-2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}

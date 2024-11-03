@@ -1,0 +1,96 @@
+.body,
+.title {
+  align-self: stretch;
+  position: relative;
+  mix-blend-mode: normal;
+}
+.title {
+  margin: 0;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.body {
+  font-size: var(--m3-label-large-size);
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  color: var(--m3-sys-light-on-surface-variant);
+}
+.titleDescription {
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-5xl) 0;
+  gap: var(--gap-base);
+}
+.textContent,
+.titleDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--m3-sys-light-outline-variant);
+  box-sizing: border-box;
+  height: 1px;
+}
+.horizontalfullWidth {
+  width: 312px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.actions,
+.divider1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.divider1 {
+  width: 312px;
+  height: 17px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.actions {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-5xl)
+    var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.actions1,
+.basicDialog {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.actions1 {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--m3-label-large-size);
+  color: var(--green);
+}
+.basicDialog {
+  position: absolute;
+  top: 29px;
+  left: 8px;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-darkseagreen);
+  width: 312px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--m3-headline-small-size);
+  color: var(--m3-sys-light-on-surface);
+  font-family: var(--m3-label-large);
+}

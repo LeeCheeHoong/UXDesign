@@ -1,0 +1,35 @@
+.emailInputChild {
+  height: 209px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.emailInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email {
+  align-self: stretch;
+  height: 62.2px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro-100);
+  z-index: 2;
+}
+.emailForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
